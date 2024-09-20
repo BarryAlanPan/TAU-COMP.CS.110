@@ -23,3 +23,7 @@ A JavaFX application for tracking fitness activities.
    ```
 
 The Fitness Tracker application should now launch.
+
+## Demo
+
+![Fitness Tracker Demo](images/CleanShot%202024-09-20%20at%2013.54.46@2x.png)
