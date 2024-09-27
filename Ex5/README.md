@@ -26,4 +26,6 @@ The Fitness Tracker application should now launch.
 
 ## Demo
 
-![Fitness Tracker Demo](images/CleanShot%202024-09-20%20at%2013.54.46@2x.png)
+![Fitness Tracker Demo](images/CleanShot%202024-09-27%20at%2012.57.25@2x.png)
+
+![Fitness Tracker Demo](images/CleanShot%202024-09-27%20at%2012.57.37@2x.png)
