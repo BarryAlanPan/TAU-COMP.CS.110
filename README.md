@@ -3,6 +3,7 @@
 A JavaFX application for tracking fitness activities **implemented in MVC architecture**.
 
 ## Project Tree
+```
 src/
 └── main/
     └── java/
@@ -16,7 +17,7 @@ src/
                     │   └── FitnessModel.java
                     └── view/
                         └── FitnessView.java
-
+```
 ## Running the Application
 
 1. Clone the repository
