@@ -2,6 +2,21 @@
 
 A JavaFX application for tracking fitness activities **implemented in MVC architecture**.
 
+## Project Tree
+src/
+└── main/
+    └── java/
+        └── com/
+            └── example/
+                └── fitnesstracker/
+                    ├── FitnessTrackerApp.java
+                    ├── controller/
+                    │   └── FitnessController.java
+                    ├── model/
+                    │   └── FitnessModel.java
+                    └── view/
+                        └── FitnessView.java
+
 ## Running the Application
 
 1. Clone the repository
