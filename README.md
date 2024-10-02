@@ -1,11 +1,6 @@
 # Fitness Tracker
 
-A JavaFX application for tracking fitness activities.
-
-## Prerequisites
-
-- Java Development Kit (JDK) 11 or later
-- Maven 3.6.3 or later
+A JavaFX application for tracking fitness activities **implemented in MVC architecture**.
 
 ## Running the Application
 
@@ -13,7 +8,7 @@ A JavaFX application for tracking fitness activities.
 
 2. Navigate to the project directory:
    ```
-   cd Ex4/demo
+   cd demo
    ```
 
 3. Run the application using Maven:

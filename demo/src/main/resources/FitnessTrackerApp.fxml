@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.collections.FXCollections?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+
+    <top>
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <Label text="Group:"/>
+            <ComboBox fx:id="groupComboBox">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Me"/>
+                        <String fx:value="Family"/>
+                        <String fx:value="Friends"/>
+                        <String fx:value="Work"/>
+                    </FXCollections>
+                </items>
+            </ComboBox>
+            <Button text="Manage groups"/>
+        </HBox>
+    </top>
+
+    <center>
+        <LineChart fx:id="activityChart" title="Daily Activity">
+            <xAxis>
+                <NumberAxis fx:id="xAxis" lowerBound="5" upperBound="15" tickUnit="2"/>
+            </xAxis>
+            <yAxis>
+                <NumberAxis fx:id="yAxis"/>
+            </yAxis>
+        </LineChart>
+    </center>
+
+    <bottom>
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <CheckBox fx:id="stepsCheckBox" text="Steps" selected="true"/>
+            <CheckBox fx:id="caloriesCheckBox" text="Calories" selected="true"/>
+            <Label text="Timeline:"/>
+            <ComboBox fx:id="timelineComboBox">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Today"/>
+                        <String fx:value="This week"/>
+                        <String fx:value="Last week"/>
+                        <String fx:value="This month"/>
+                    </FXCollections>
+                </items>
+                <value>
+                    <String fx:value="Today"/>
+                </value>
+            </ComboBox>
+        </HBox>
+    </bottom>
+
+    <left>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Button text="My data"/>
+            <Button text="Settings"/>
+            <Button text="Log out"/>
+            <Button text="Quit"/>
+        </VBox>
+    </left>
+</BorderPane>
